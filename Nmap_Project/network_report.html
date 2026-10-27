@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nmap Network Inventory</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 35px;
+    background: #f4f6f9;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+}
+
+.summary {
+    background: white;
+    padding: 18px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #243447;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Nmap Network Asset Inventory</h1>
+
+<div class="summary">
+    <h2>Scan Summary</h2>
+    <p><strong>Active hosts discovered:</strong> 4</p>
+    <p><strong>Report generated:</strong> 2026-10-27 01:16:48</p>
+    <p><strong>Source:</strong> network_scan.xml</p>
+</div>
+
+<h2>Discovered Devices</h2>
+
+<table>
+<thead>
+<tr>
+    <th>IP Address</th>
+    <th>Status</th>
+    <th>MAC Address</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>192.168.19.1</td><td>up</td><td>00:50:56:C0:00:08</td></tr><tr><td>192.168.19.2</td><td>up</td><td>00:50:56:F9:B2:63</td></tr><tr><td>192.168.19.254</td><td>up</td><td>00:50:56:F7:C7:09</td></tr><tr><td>192.168.19.128</td><td>up</td><td>Not available</td></tr>
+</tbody>
+</table>
+
+<footer>
+    This report contains host-discovery results.
+    Open ports were not scanned in this discovery scan.
+</footer>
+
+</body>
+</html>

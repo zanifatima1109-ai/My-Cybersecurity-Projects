@@ -1,0 +1,9 @@
+SIEM SECURITY REPORT
+Generated: 2026-10-26 10:51:57
+Total log lines analyzed: 105
+Total alerts: 3
+==================================================
+
+[ALERT] Pattern: FAILED_LOGIN | Log: security.log | 2026-10-26 09:05:00 FAILED_LOGIN Username=admin Source=192.168.19.50
+[ALERT] Pattern: FAILED_LOGIN | Log: security.log | 2026-10-26 09:06:00 FAILED_LOGIN Username=root Source=192.168.19.50
+[ALERT] Pattern: SUSPICIOUS_ACTIVITY | Log: security.log | 2026-10-26 09:10:00 SUSPICIOUS_ACTIVITY Multiple login attempts detected

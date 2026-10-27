@@ -1,0 +1,100 @@
+2026-10-26T10:01:38-04:00 kali kernel: docker0: port 1(vethf3d6d4c) entered disabled state
+2026-10-26T10:01:38-04:00 kali kernel: vethf3d6d4c (unregistering): left allmulticast mode
+2026-10-26T10:01:38-04:00 kali kernel: vethf3d6d4c (unregistering): left promiscuous mode
+2026-10-26T10:01:38-04:00 kali kernel: docker0: port 1(vethf3d6d4c) entered disabled state
+2026-10-26T10:01:38-04:00 kali systemd[1]: run-docker-netns-7fa7e08f0c4b.mount: Deactivated successfully.
+2026-10-26T10:01:38-04:00 kali systemd[1]: var-lib-docker-overlay2-b885cc6016d92af1fe5460ec830633f3f2c365e4a04022d58ae936a7ea155276-merged.mount: Deactivated successfully.
+2026-10-26T10:01:38-04:00 kali sudo[9508]: pam_unix(sudo:session): session closed for user root
+2026-10-26T10:02:15-04:00 kali systemd[1]: plocate-updatedb.service: Deactivated successfully.
+2026-10-26T10:02:15-04:00 kali systemd[1]: Finished plocate-updatedb.service - Update the plocate database.
+2026-10-26T10:02:15-04:00 kali systemd[1]: plocate-updatedb.service: Consumed 18.249s CPU time over 52.861s wall clock time, 534.4M memory peak.
+2026-10-26T10:02:24-04:00 kali sudo[10091]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/docker info
+2026-10-26T10:02:24-04:00 kali sudo[10091]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-26T10:02:24-04:00 kali sudo[10091]: pam_unix(sudo:session): session closed for user root
+2026-10-26T10:02:39-04:00 kali systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-10-26T10:02:39-04:00 kali systemd-tmpfiles[10242]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path "/run/lock", ignoring.
+2026-10-26T10:02:39-04:00 kali systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-10-26T10:02:39-04:00 kali systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-10-26T10:02:57-04:00 kali sudo[10383]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/docker info
+2026-10-26T10:02:57-04:00 kali sudo[10383]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-26T10:02:57-04:00 kali sudo[10383]: pam_unix(sudo:session): session closed for user root
+2026-10-26T10:02:58-04:00 kali NetworkManager[594]: <info>  [1793023378.7370] dhcp4 (eth0): state changed new lease, address=192.168.19.128
+2026-10-26T10:02:58-04:00 kali dbus-daemon[544]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=594 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2026-10-26T10:02:58-04:00 kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2026-10-26T10:02:58-04:00 kali dbus-daemon[544]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2026-10-26T10:02:58-04:00 kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2026-10-26T10:03:08-04:00 kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2026-10-26T10:05:01-04:00 kali CRON[11427]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-26T10:05:01-04:00 kali CRON[11429]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-10-26T10:05:01-04:00 kali CRON[11427]: pam_unix(cron:session): session closed for user root
+2026-10-26T10:05:42-04:00 kali sudo[11760]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install docker-compose-v2
+2026-10-26T10:05:42-04:00 kali sudo[11760]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-26T10:05:42-04:00 kali sudo[11760]: pam_unix(sudo:session): session closed for user root
+2026-10-26T10:06:47-04:00 kali sudo[12290]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-26T10:06:47-04:00 kali sudo[12290]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-26T10:06:50-04:00 kali sudo[12290]: pam_unix(sudo:session): session closed for user root
+2026-10-26T10:07:00-04:00 kali sudo[12425]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install docker-compose
+2026-10-26T10:07:00-04:00 kali sudo[12425]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-26T10:07:10-04:00 kali sudo[12425]: pam_unix(sudo:session): session closed for user root
+2026-10-26T10:09:01-04:00 kali CRON[13477]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-26T10:09:01-04:00 kali CRON[13479]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-26T10:09:01-04:00 kali CRON[13477]: pam_unix(cron:session): session closed for user root
+2026-10-26T10:09:01-04:00 kali systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-26T10:09:01-04:00 kali systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-26T10:09:01-04:00 kali systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-26T10:15:01-04:00 kali CRON[16426]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-26T10:15:01-04:00 kali CRON[16428]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-10-26T10:15:01-04:00 kali CRON[16426]: pam_unix(cron:session): session closed for user root
+2026-10-26T10:17:01-04:00 kali CRON[17391]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-26T10:17:01-04:00 kali CRON[17393]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-10-26T10:17:01-04:00 kali CRON[17391]: pam_unix(cron:session): session closed for user root
+2026-10-26T10:17:58-04:00 kali NetworkManager[594]: <info>  [1793024278.6861] dhcp4 (eth0): state changed new lease, address=192.168.19.128
+2026-10-26T10:17:58-04:00 kali dbus-daemon[544]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=594 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2026-10-26T10:17:58-04:00 kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2026-10-26T10:17:58-04:00 kali dbus-daemon[544]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2026-10-26T10:17:58-04:00 kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2026-10-26T10:18:08-04:00 kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2026-10-26T10:24:55-04:00 kali dbus-daemon[1195]: [session uid=1000 pid=1195 pidfd=5] Activating via systemd: service name='org.xfce.Xfconf' unit='xfconfd.service' requested by ':1.40' (uid=1000 pid=1564 comm="/usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-noti" label="unconfined")
+2026-10-26T10:24:55-04:00 kali systemd[1173]: Starting xfconfd.service - Xfce configuration service...
+2026-10-26T10:24:55-04:00 kali dbus-daemon[1195]: [session uid=1000 pid=1195 pidfd=5] Successfully activated service 'org.xfce.Xfconf'
+2026-10-26T10:24:55-04:00 kali systemd[1173]: Started xfconfd.service - Xfce configuration service.
+2026-10-26T10:25:01-04:00 kali CRON[21358]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-26T10:25:01-04:00 kali CRON[21360]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-10-26T10:25:01-04:00 kali CRON[21358]: pam_unix(cron:session): session closed for user root
+2026-10-26T10:26:05-04:00 kali xfce4-screensaver-dialog[21843]: gkr-pam: unlocked login keyring
+2026-10-26T10:26:05-04:00 kali xfce4-screensaver-dialog[21999]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-10-26T10:32:41-04:00 kali sudo[25802]:     kali : TTY=pts/0 ; PWD=/home/kali/wazuh-docker/single-node ; USER=root ; COMMAND=/usr/bin/docker images
+2026-10-26T10:32:41-04:00 kali sudo[25802]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-26T10:32:41-04:00 kali sudo[25802]: pam_unix(sudo:session): session closed for user root
+2026-10-26T10:32:58-04:00 kali NetworkManager[594]: <info>  [1793025178.6738] dhcp4 (eth0): state changed new lease, address=192.168.19.128
+2026-10-26T10:32:58-04:00 kali dbus-daemon[544]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=594 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2026-10-26T10:32:58-04:00 kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2026-10-26T10:32:58-04:00 kali dbus-daemon[544]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2026-10-26T10:32:58-04:00 kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2026-10-26T10:33:08-04:00 kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2026-10-26T10:35:01-04:00 kali CRON[26995]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-26T10:35:01-04:00 kali CRON[26997]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-10-26T10:35:01-04:00 kali CRON[26995]: pam_unix(cron:session): session closed for user root
+2026-10-26T10:39:01-04:00 kali CRON[28950]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-26T10:39:01-04:00 kali CRON[28958]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-26T10:39:01-04:00 kali systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-26T10:39:01-04:00 kali CRON[28950]: pam_unix(cron:session): session closed for user root
+2026-10-26T10:39:01-04:00 kali systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-26T10:39:01-04:00 kali systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-26T10:45:01-04:00 kali CRON[31990]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-26T10:45:01-04:00 kali CRON[31992]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-10-26T10:45:01-04:00 kali CRON[31990]: pam_unix(cron:session): session closed for user root
+2026-10-26T10:47:19-04:00 kali sudo[33179]:     kali : TTY=pts/0 ; PWD=/home/kali/wazuh-docker/single-node ; USER=root ; COMMAND=/usr/bin/journalctl -n 10 --no-pager
+2026-10-26T10:47:19-04:00 kali sudo[33179]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-26T10:47:19-04:00 kali sudo[33179]: pam_unix(sudo:session): session closed for user root
+2026-10-26T10:47:51-04:00 kali sudo[33444]:     kali : TTY=pts/0 ; PWD=/home/kali/wazuh-docker/single-node ; USER=root ; COMMAND=/usr/bin/journalctl -n 20 --no-pager -o short-iso
+2026-10-26T10:47:51-04:00 kali sudo[33444]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2026-10-26T10:47:51-04:00 kali sudo[33444]: pam_unix(sudo:session): session closed for user root
+2026-10-26T10:47:58-04:00 kali NetworkManager[594]: <info>  [1793026078.6731] dhcp4 (eth0): state changed new lease, address=192.168.19.128
+2026-10-26T10:47:58-04:00 kali dbus-daemon[544]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=594 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2026-10-26T10:47:58-04:00 kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2026-10-26T10:47:58-04:00 kali dbus-daemon[544]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2026-10-26T10:47:58-04:00 kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2026-10-26T10:48:08-04:00 kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2026-10-26T10:48:20-04:00 kali sudo[33680]:     kali : TTY=pts/0 ; PWD=/home/kali/wazuh-docker/single-node ; USER=root ; COMMAND=/usr/bin/journalctl -n 100 --no-pager -o short-iso
+2026-10-26T10:48:20-04:00 kali sudo[33680]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
